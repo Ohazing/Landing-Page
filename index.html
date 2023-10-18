@@ -54,10 +54,10 @@
                             class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Naura Azril
                             Widyadana</span></h1>
                     <h2 class="text-slate-500 font-semibold text-lg mb-5 mt-1 lg:text-2xl">Student & <span
-                            class="text-slate-900">Programmer</span></h2>
+                            class="text-slate-900">Desainer</span></h2>
                     <p class="text-medium text-slate-500 mb-10 leading-relaxed">Belajar web programing itu mudah dan
                         menyenangkan bukan. <span class="text-slate-900 font-bold">Bukan!</span></p>
-                    <a href="#contact"
+                    <a href="#"
                         class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi
                         Saya</a>
                 </div>
@@ -78,16 +78,16 @@
             <div class="flex flex-wrap">
                 <div class="w-full px-4 mb-10 lg:w-1/2">
                     <h4 class="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Latar Belakang</h2>
+                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Profil</h2>
                     <p class="font-medium text-base text-slate-500 lg:text-lg">Saya adalah salah satu siswa dari SMK N 1
                         Purbalingga salah satu kopentensi bidang keahlian Rekayasa Perangkat Lunak atau Teknik Komputer
                         dan Informatika yang secara khusus mempelajari pemrograman komputer.</p>
                 </div>
                 <div class="w-full px-4 lg:w-1/2">
-                    <h3 class="font-bold text-dark text-2xl mb-4 max-w-md lg:text-3xl lg:pt-10">Cita-Cita & Tujuan</h3>
-                    <p class="font-medium text-base text-slate-500 mb-6 lg:text-lg">Saya bercita-cita untuk menjadi seorang programmer yang sukses dan berkontribusi dalam mengembangkan teknologi yang inovatif. Saya juga ingin bekerja untuk perusahaan teknologi terkemuka atau bahkan menjadi pengusaha teknologi. Saya juga berharap dapat memberikan pelatihan dan pendidikan pemrograman kepada masyarakat yang kurang beruntung untuk membantu mereka memahami potensi dunia teknologi.</p>
+                    <h3 class="font-bold text-dark text-2xl mb-4 max-w-md lg:text-3xl lg:pt-10">Data Diri</h3>
+                    <p class="font-medium text-base text-slate-500 mb-6 lg:text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, velit?</p>
                     <div class="flex items-center">
-                        <a href="https://wa.me/+6283155657044" target="_blank"
+                        <a href="https://wa.me/083155657044" target="_blank"
                             class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white text-slate-300">
                             <svg class="fill-current" width="20" role="img" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -136,29 +136,30 @@
                 <div class="max-w-xl mx-auto text-center mb-6">
                     <h4 class="font-semibold text-lg text-primary mb-2">Kontak</h4>
                     <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Hubungi Saya</h2>
-                    <p class="font-medium text-md text-seccondary md:text-lg">Jika Anda ingin menghubungi saya, silakan kirim pesan dibawah ini. Saya sangat senang mendengar dari Anda!</p>
+                    <p class="font-medium text-md text-seccondary md:text-lg">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Beatae, quod?</p>
                 </div>
             </div>
-            <form>
+            <form id="contact-form" action="https://formspree.io/f/xnqklkad" method="post">
                 <div class="w-full lg:w-2/3 lg:mx-auto">
                     <div class="w-full px-4 mb-8">
                         <label for="name" class="text-basae font-bold text-primary">Nama</label>
-                        <input type="text" name="" id="name"
-                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" />
+                        <input type="text" name="name" id="name"
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" required/>
                     </div>
                     <div class="w-full px-4 mb-8">
                         <label for="email" class="text-basae font-bold text-primary">Email</label>
-                        <input type="email" name="" id="email"
-                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" />
+                        <input type="email" name="email" id="email"
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" required/>
                     </div>
                     <div class="w-full px-4 mb-8">
                         <label for="pesan" class="text-basae font-bold text-primary">Pesan</label>
-                        <textarea type="text" name="" id="pesan"
-                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
+                        <textarea type="text" name="pesan" id="pesan"
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32" required></textarea>
                     </div>
                     <div class="w-full">
                         <button
-                            class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Kirim</button>
+                          type="submit"  class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Kirim</button>
                     </div>
                 </div>
             </form>
@@ -170,7 +171,7 @@
             <div class="flex flex-wrap">
                 <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
                     <h2 class="font-bold text-white text-4xl mb-5">NAW</h2>
-                    <h3 class="font-bold text-2xl mb-2">Hubungi Saya</h3>
+                    <h3 class="font-bold text-2xl mb-2">Hubungi Kami</h3>
                     <p>azrilwdydna@gmail.com</p>
                     <p>Jl. Giri Cendana Kajongan Rt 001 Rw 007</p>
                     <p>Purbalingga, Bojongsari, Kajongan</p>
@@ -180,9 +181,6 @@
                     <ul class="text-slate-300">
                         <li>
                             <a href="" class="inline-block text-base hover:text-primary mb-3">Desainer</a>
-                        </li>
-                         <li>
-                            <a href="" class="inline-block text-base hover:text-primary mb-3">Programmer</a>
                         </li>
                         <li>
                             <a href="" class="inline-block text-base hover:text-primary mb-3">Teknologi</a>
@@ -210,7 +208,7 @@
 
             <div class="w-full pt-10 border-t  border-white-700">
                     <div class="flex items-center justify-center mb-5">
-                        <a href="https://wa.me/+6283155657044" target="_blank"
+                        <a href="https://wa.me/083155657044" target="_blank"
                             class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate hover:border-primary hover:bg-primary hover:text-white text-slate-300">
                             <svg class="fill-current" width="20" role="img" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
